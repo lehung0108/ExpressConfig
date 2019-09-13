@@ -1,0 +1,20 @@
+export const CreateAccountErrors = {
+    NO_DATA: 'NO_DATA',
+    NO_EMAIL: 'NO_EMAIL',
+    INVALID_EMAIL: 'INVALID_EMAIL',
+    EMAIL_ALREADY_EXIST: 'EMAIL_ALREADY_EXIST',
+};
+
+export const AccountLoginErrors = {
+    NO_DATA: 'NO_DATA',
+    NO_EMAIL: 'NO_EMAIL',
+    INVALID_EMAIL: 'INVALID_EMAIL',
+    NO_PASSWORD: 'NO_PASSWORD',
+    EMAIL_NEVER_EXIST: 'EMAIL_NEVER_EXIST',
+    WRONG_PASSWORD: 'WRONG_PASSWORD',
+};
+
+export const MeAccountErrors = {
+    NO_DATA: 'NO_DATA',
+    INVALID_ACCOUNT: 'INVALID_ACCOUNT',
+};

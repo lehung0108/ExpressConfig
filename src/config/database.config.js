@@ -1,0 +1,1 @@
+export const MONITORING_PROJECTS_DATABASE_URL = process.env.MONITORING_PROJECTS_DATABASE_URL || 'mongodb://127.0.0.1/Database';

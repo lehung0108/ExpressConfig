@@ -1,0 +1,49 @@
+{
+  "name": "manage-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "npm run lint && cross-env BABEL_DISABLE_CACHE=1 nodemon index",
+    "lint": "eslint --fix --ext .js src"
+  },
+  "author": "Louis Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "auto-bind": "^1.1.0",
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.2",
+    "console-stamp": "^0.2.6",
+    "cor": "^0.0.0",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "http-status-codes": "^1.3.0",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.22.2",
+    "mongoose": "^4.12.5",
+    "mongoose-aggregate-paginate": "^1.1.3",
+    "mongoose-paginate": "^5.0.3",
+    "morgan": "^1.9.0",
+    "node-fetch": "^2.1.2",
+    "node-schedule": "^1.3.0",
+    "nodemon": "^1.17.5",
+    "shortid": "^2.2.10",
+    "validator": "^10.4.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "^1.17.5"
+  }
+}
